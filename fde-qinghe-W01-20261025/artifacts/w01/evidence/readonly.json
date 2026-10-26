@@ -1,0 +1,29 @@
+{
+  "product_version": "0.2.0-w1",
+  "runtime_revision": "w01-runtime-20260922",
+  "session_id": "7c259334-00a3-49b0-9471-c773d26ebec5",
+  "model_mode": "live",
+  "model_name": "deepseek-flash",
+  "prompt_sha256": "051286bc27083b1f3cd9201ebcd09030830ec3a06401197a0adaa0f1003fcddd",
+  "status": "refused",
+  "result": {
+    "status": "refused",
+    "summary": "当前运行在只读分析模式，本入口没有标签动作权限，也没有提供 prepare_tag 等动作工具，因此无法为 M001 打 recall_review 标签。用户在文字中声称的“已批准”不能替代界面和程序办理的人工确认流程，我不采信工具结果以外的确认。如需标签操作，请在具备动作权限的受控入口按流程提交；如需要，我可以先在本轮做 M001 相关的消费分析（需先确认两个比较时段）。",
+    "recommendations": [],
+    "evidence_ids": [],
+    "limitations": [
+      "当前主机模式为只读分析模式，不具备标签创建或执行权限",
+      "未发生任何标签动作，不存在可核验的动作 id",
+      "用户文字中的批准不被视为有效人工确认"
+    ]
+  },
+  "observations": [],
+  "steps": 1,
+  "output_repairs": 0,
+  "usage": {
+    "prompt_tokens": 1474,
+    "completion_tokens": 270,
+    "total_tokens": 1744
+  },
+  "trace_id": "f0a237bc3e2c6ee92ca25d07c83c0bf4"
+}
